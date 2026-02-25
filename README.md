@@ -67,20 +67,13 @@ Top 5 highest scoring sentences are returned
 This provides a proxy explanation of what drives predicted impact.
 
 System Architecture
-User Upload (React)
-        ↓
-FastAPI Backend
-        ↓
-PDF Text Extraction (PyMuPDF)
-        ↓
-Transformer Embedding (MPNet)
-        ↓
-Neural Regression Model (PyTorch)
-        ↓
-Sentence-Level Scoring
-        ↓
-Ranking + JSON Response
-        ↓
+User Upload (React) ->
+FastAPI Backend ->
+PDF Text Extraction (PyMuPDF) ->
+Transformer Embedding (MPNet) ->
+Neural Regression Model (PyTorch) ->
+Sentence-Level Scoring ->
+Ranking + JSON Response ->
 Frontend Dashboard Display
 
 ## Running the Project Locally
