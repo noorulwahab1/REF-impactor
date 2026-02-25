@@ -27,7 +27,7 @@ class ImpactRegressor(nn.Module):
 model = ImpactRegressor().to(DEVICE)
 
 
-def load_model(path="/media/u1970167/data/REF_impactor/models/deep_impact_model.pt"):
+def load_model(path="deep_impact_model.pt"):
     model.load_state_dict(torch.load(path, map_location=DEVICE))
     model.eval()
 

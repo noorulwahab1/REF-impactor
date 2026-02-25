@@ -9,7 +9,7 @@ from utils import extract_text_from_pdf_path
 from model import ImpactRegressor, DEVICE
 
 EMBEDDER_NAME = "all-mpnet-base-v2"
-MODEL_PATH = "/media/u1970167/data/REF_impactor/models/deep_impact_model.pt"
+MODEL_PATH = "deep_impact_model.pt"
 
 embedder = SentenceTransformer(EMBEDDER_NAME)
 
