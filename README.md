@@ -4,6 +4,10 @@ A Transformer-based NLP system that predicts and ranks the academic impact of re
 
 This project combines pretrained sentence embeddings with a neural regression model to estimate the potential influence of academic papers and identify the most impactful sentences within them.
 
+## Dashboard Preview
+
+![Dashboard Preview](images/dashboard.png)
+
 ## Overview
 
 This system allows users to:
@@ -18,10 +22,6 @@ Highlight the most influential sentences within each document
 
 The backend is built with FastAPI and PyTorch.
 The frontend is built with React (Vite).
-
-## Dashboard Preview
-
-![Dashboard Preview](images/dashboard.png)
 
 ##How It Works
 1) PDF Text Extraction
