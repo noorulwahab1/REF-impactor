@@ -19,6 +19,10 @@ Highlight the most influential sentences within each document
 The backend is built with FastAPI and PyTorch.
 The frontend is built with React (Vite).
 
+## Dashboard Preview
+
+![Dashboard Preview](images/dashboard.png)
+
 ##How It Works
 1) PDF Text Extraction
 
@@ -118,7 +122,3 @@ Generate embeddings
 Train neural regression model
 
 Save deep_impact_model.pt
-
-## Dashboard Preview
-
-![Dashboard Preview](images/dashboard.png)
